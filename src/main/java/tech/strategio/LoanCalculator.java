@@ -11,7 +11,7 @@ public class LoanCalculator {
      * calculates and outputs the remaining amount after 3 months.
      * 
      * @param amount the initial loan amount that needs to be paid back
-     * @return the remaining amount after 10% is paid each month for 3 mongths
+     * @return the remaining amount after 10% is paid each month for 3 months
      */
     static int getRemainingAmountIn3Months(int amount) {
         for (int i = 1; i <= 3; i++) {
